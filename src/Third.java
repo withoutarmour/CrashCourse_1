@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class Third {
-    public static void main(System[] args)throws IOException {
+    public static void main(String[] args)throws IOException {
         System.out.println("Введіть радіус кола:");
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int r = Integer.parseInt(br.readLine());
